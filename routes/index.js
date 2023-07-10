@@ -2,7 +2,7 @@ const router=require('express').Router();
 const mongoose= require('mongoose');
 const Developer=require('../modals/developer');
 
-// create developer
+// create developer 
 
 router.post("/create",async (req,res)=>{
     try{
